@@ -1,0 +1,23 @@
+<template>
+	<lightning-card title="Comp Filhos">
+		<div class="slds-m-around_medium">
+			<!-- CHAMANDO UM COMPONENTE FILHO c-nomeFilho
+			com propriedade  -->
+			<c-child nome="Mario"></c-child>
+			<c-child nome="Luigi"></c-child>
+			<c-child nome="Sonic"></c-child>
+			<c-child nome="Tales"></c-child>
+
+			<!-- chamando o componente empresa -->
+			<c-empresa nome="Mamaco Corp" cnpj="0011"></c-empresa>
+			<c-empresa nome="Gorira Company" cnpj="2233"></c-empresa>
+			<c-empresa nome="Nana Pet" cnpj="3344"></c-empresa>
+
+			<!-- chamando o componente produto -->
+			<c-produto nome="Xbox" preco="2500"></c-produto>
+			<c-produto nome="PS5" preco="6000"></c-produto>
+			<c-produto nome="Brick Game" preco="10"></c-produto>
+
+		</div>
+	</lightning-card>
+</template>
